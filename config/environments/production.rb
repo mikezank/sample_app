@@ -27,7 +27,7 @@ SampleApp::Application.configure do
   # config.assets.css_compressor = :sass
 
   # Do not fallback to assets pipeline if a precompiled asset is missed.
-  config.assets.compile = false
+  config.assets.compile = true   # changed per http://stackoverflow.com/questions/7464544/ruby-on-rails-rake-assetsprecompile-error
 
   # Generate digests for assets URLs.
   config.assets.digest = true
